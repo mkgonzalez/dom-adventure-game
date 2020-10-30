@@ -22,10 +22,6 @@ window.addEventListener("keyup", event => {
     }
 });
 
-let button = document.querySelector("button");
-  button.addEventListener("click", () => {
-    console.log("Button clicked.");
-  });
 function death() {
     window.removeEventListener("keyup");
     story = "You have died. Refresh page to try again.";
